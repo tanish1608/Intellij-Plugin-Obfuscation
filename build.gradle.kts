@@ -70,6 +70,7 @@ tasks {
         val outputObfuscatedJar = file("build/obfuscated/output/IntelliJ Platform Plugin Template-1.0.0.jar-obfuscated.jar")
         outjars(outputObfuscatedJar)
 
+        //Java Config
         libraryjars(configurations.compileClasspath.get())
 
         dontshrink()
