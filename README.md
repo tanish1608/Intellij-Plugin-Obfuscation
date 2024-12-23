@@ -153,15 +153,25 @@ keep class implements com.intellij.openapi.components.PersistentStateComponent {
 
 These rules must be customized depending on your plugin's needs and specific API usage. [cite: 28, 29, 30, 31, 32, 33, 34, 35]
 
-## Results
-- ### Before Obfuscation
-  ![Alt text](images/2.jpg)
+## Results: 
+## File Structure
 
-  ![Alt text](images/4.jpg)
+  - #### Before Obfuscation
+    ![Alt text](images/2.jpg)
 
-- ### After Obfuscation
-  ![Alt text](images/1.jpg)
-  ![Alt text](images/3.jpg)
+  - #### After Obfuscation 
+    ![Alt text](images/1.jpg)
+
+### MyApplicationActivationListener.kt File 
+  - #### Original
+    ![Alt text](images/5.jpg)
+  - #### Before Obfuscation
+    ![Alt text](images/4.jpg)
+  - #### After Obfuscation
+    ![Alt text](images/3.jpg)
+
+
+
   
 
 
